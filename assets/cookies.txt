@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+statistics.gd.gov.cn	TRUE	/	FALSE	1999999999	openstack_cookie_insert	42041025
+mp.weixin.qq.com	TRUE	/	FALSE	1999999999	poc_sid	HND8immjlpZPB0JDPjgX7W4P4SzF_jqkvjEcRGs4
+bszs.conac.cn	TRUE	/	FALSE	1999999999	JSESSIONID	4FC7F4765A6199E9360B671A487C046A.tomcat1
+beian.miit.gov.cn	TRUE	/	FALSE	1999999999	__jsluid_h	da722845132fd81ac657d6edb2cf5fa9
+www.beian.gov.cn	TRUE	/	FALSE	1999999999	TS01169d64	01e55d0688348b138fcf2de9c8629ef97d3d894db5ebdc320703b8a7c60860069e5260d8ab0d7e6de0d18386ae7d44722dd6be5d9b
+

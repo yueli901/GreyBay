@@ -1,0 +1,92 @@
+/*电脑*/
+@media (min-width:1580px){
+}
+@media (min-width:1340px){
+}
+
+@media (max-width:1340px){
+}
+/*ipad竖版区域*/
+
+/*ipad*/
+@media (max-width: 780px){
+	body,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,input,button{ font-size:2.4rem; }
+	body{background:#fff;}
+	html{font-size: 62.5%;}
+	/*--通用样式--*/
+	.AllYdCon{ display:block;}
+	.AllPcCon{ display:none;}
+	.AllLeftCon,.AllRightCon{ float:none; width:auto!important;  }
+	.AllFont5{ font-size:1.6rem !important;}
+	.AllFont4{ font-size:2.6rem !important;}
+	.AllFont3{ font-size:3.8rem !important;}
+	.AllFont2{ font-size:3rem !important;}
+	.AllFont{ font-size:2.4rem !important;}
+	/*--通用样式--*/
+	.top_bg{ background-image:none;}
+	.top_bg_con .logo{ text-align:center; padding:3em 0;}
+	.top_bg_con{ background-position:80% bottom; background-size:auto 100%;}
+	.top_bg_con .menu{ margin:0 2%;}
+	.top_bg_con .menu ul{ width:100%; float:none;}
+	.top_bg_con .menu .tab_con{ width:80%;}
+	.top_bg_con .menu .tab_con a{ padding:0 0.8em;}
+	.top_bg_con .menu .search{ width:15%; margin:0.8em 0 0 0;}
+	.top_bg_con .menu .search .btn1,.top_bg_con .menu .search{ font-size:1.2rem;}
+	.top_bg_con .menu .search .btn1{ background-size:auto 70% ;display: block;}
+	.conter{ margin:0.5em 3%;}
+	.conter .TopCont{ padding:0; margin:1em 0 0 0;}
+	.conter .tit{ height:1.2em; line-height:1.2;}
+	.conter .Ydbtn{ padding:10px 0 22px 0;cursor:pointer;}
+	.conter .YdbtnCont{ display:none;}
+	.conter .LeftCont .tit, .conter .RightCont .tit{ margin:0.5em 0;}
+	.conter .LeftCont,.conter .RightCont{ margin:0; padding:0.5em 0;}
+	.conter .RightCont .banner{ margin:1.1em 0 0 0;}
+	.conter .LeftCont ul{ margin:0;}
+	.conter .LeftCont ul li{ line-height:2.5; height:2.5em;}
+	
+	.footer{padding:3%; margin:0; width:auto;}
+	.footer_con{ width:auto; line-height:2; } 
+	.footer_con .TBcont{ right:0; top:0; width:auto; width:5.5em;}
+	.footer_con .TBcont span{ display:block; width:100%;text-align:center; }
+	.footer_con .TBcont span img{ width:85%;}
+	.footer_con .TBcont .TBright{ float:none;}
+	.footer_con .TBcont .TBright img{width:100%;}
+	.footer_con .text{ text-align:left;padding:0 6em 0 0;}
+	.footer_con .text span{}
+	.footer_con .text span.BAtb{ background-size:auto 60%; display:block;}
+	.conter .TopCont .PicLeftCont .swiper-button-next, .conter .TopCont .PicLeftCont .swiper-button-prev{ width:15px; height:30px; background-size:auto 70%;}
+	
+	/*--列表页--*/
+	 .mainList{ margin:0.5em 3%; padding:0;}
+	 .mainList .nei_tit{ display:none;}
+	 .mainList .left_menu,.mainList .xx_con,.mainList .fenx_con .cont{ margin:0;}
+	 .mainList .left_menu h3{ line-height:3.2;}
+	 
+	 .mainList .right_cont .page{ display:none;}
+	 .mainList .right_cont .more{ display:block;}
+	 .mainList .xx_con h1{ font-size:3.2rem; }
+	 .mainList  .xx_con h6 span{ padding:0 0 0.5em 0;}
+	 .mainList .xx_con img{ max-width:100%;}
+	 .mainList .fenx_con .fjdown h3{ left:-10px; font-size:2rem;}
+	 .mainList .fenx_con .fjdown p{ font-size:2rem;}
+	 .mainList .fenx_left,.mainList .fenx_con .daying{ float:none; width:auto; text-align:left;}
+	 .mainList .fenx_con .daying{ font-size:2.4rem; padding:1em 0;}
+	
+	
+	}
+/*手机大屏幕*/
+@media (max-width: 645px){
+	}
+/*手机大屏幕*/
+@media (max-width: 560px){
+	html{font-size: 32.5%;}
+	.top_bg_con .menu .tab_con a{ padding:0 0 0 0.5em;}
+	.top_bg_con .menu .tab_con{ width:90%;}
+	.top_bg_con .menu .search{ width:5%;}
+	.top_bg_con .menu .search input{ display:none;}
+	.top_bg_con .menu .search .btn1{ width:100%;}
+	}
+/*手机小屏幕*/
+@media (max-width: 340px){
+	}
+
