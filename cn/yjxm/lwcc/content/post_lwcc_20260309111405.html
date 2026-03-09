@@ -17,7 +17,7 @@
 <meta name="ColumnDescription" content="工作动态"> 
 <!--网站栏目概览标签 结束--> 
 <!--细览标签 开始--> 
-<meta name="ArticleTitle" content="水-能源-养分纽带关系：面向生态小镇的跨部门代谢分析及技术路径优化"> 
+<meta name="ArticleTitle" content="小白也能开发医疗AI应用！深圳发布“医疗AI编程智能平台”"> 
 <meta name="PubDate" content="2026-02-09"> 
 <meta name="ContentSource" content="银湾研究院"> 
 <!--细览标签 结束--> 
@@ -192,13 +192,13 @@ for(i=0; i <6; i++)
   
 <!--头部结束-->   
 <div class="mainList">
-	<div class="nei_tit"><a href="../../../index.html">银湾研究院</a>&nbsp;&gt;&nbsp;<a href="../../../yjxm/index.html">研究项目</a>&nbsp;&gt;&nbsp;<a href="../../../yjxm/zykt/">在研课题</a></div>
+	<div class="nei_tit"><a href="../../../index.html">银湾研究院</a>&nbsp;&gt;&nbsp;<a href="../../../yjxm/index.html">研究项目</a>&nbsp;&gt;&nbsp;<a href="../../../yjxm/lwcc/">论文产出</a></div>
 	<div class="xx_con">
     	<div class="toutit">
-        	<h1>热浪与短期温度变化对死亡率的异质性影响研究</h1>
+        	<h1>Mukara：四阶段交通需求模型的深度学习替代框架——以英国城际高速公路交通量预测为例</h1>
           <h6>
             <div>
-              <span>时间 : 2026-02-12 09:54:11</span><span>来源 :                银湾研究院
+              <span>时间 : 2026-03-09 11:14:05</span><span>来源 :                银湾研究院
               </span>
               <span class="font">【字体：<a onclick="changeContent('18px')" href="javascript:void(0);" class="zt0">大</a><a onclick="changeContent('16px')" href="javascript:void(0);" class="zt1">中</a><a onclick="changeContent('12px')" href="javascript:void(0);" class="zt2">小</a> 】</span>
               <em class="color">视力保护色：<a onclick="changeContent('#cefeff')" href="javascript:void(0);" class="bg"></a><a onclick="changeContent('#f8f8c3')" href="javascript:void(0);" class="bg2"></a><a onclick="changeContent('#ffc7ff')" href="javascript:void(0);" class="bg3"></a><a onclick="changeContent('#9bccfa')" href="javascript:void(0);" class="bg4"></a></em>
@@ -211,16 +211,42 @@ for(i=0; i <6; i++)
           </h6>
         </div>
 <div class="news_cont_d_wrap">
-    <p style="text-align: left;">
-        <strong>热浪与短期温度变化对死亡率的异质性影响研究</strong>
+
+<p style="text-align: left;">
+银湾研究院核心成员李悦博士、陈淑娟博士与剑桥大学建筑系金鹰教授合作，发表题为《Mukara: a deep learning alternative to the four-step travel demand model with a case study on interurban highway traffic prediction in the UK》的研究论文。该研究聚焦长期交通需求建模中的核心问题：如何在缺乏传统出行调查和复杂行为参数校准的情况下，仅依靠外部社会经济与空间环境信息，对大尺度公路网络上的交通流量进行准确预测。
+</p>
+
+<p style="text-align: left;">
+长期以来，四阶段交通需求模型（Four-Step Model, FSM）一直是交通规划中的经典框架，但其往往依赖静态调查数据、大量人工校准工作以及较强的行为假设。相比之下，近年来的数据驱动方法虽然能够学习复杂非线性关系，却多用于短期交通预测，较少面向战略规划所需的长期、路段级交通量估计任务。针对这一方法缺口，研究团队提出了深度学习框架 Mukara，直接学习从外部特征到观测交通流量之间的映射关系，为传统四阶段模型提供了一种新的数据驱动替代路径。
+</p>
+
+<p style="text-align: left;">
+Mukara 以英格兰和威尔士八年的交通观测数据为基础，输入变量涵盖人口、就业、土地利用、道路网络特征以及兴趣点（POI）等多源外部信息，目标是在不使用传统起讫点调查或历史流量序列的前提下，对高速公路主干路段的日交通量进行预测。研究结果表明，Mukara 在随机交叉验证下取得了平均 GEH 为 50.74、平均绝对误差（MAE）为 8,989 辆/日、决定系数 \(R^2\) 为 0.583 的表现，优于多个基线模型以及同类研究中的可比方法。
+</p>
+
+<p style="text-align: left;">
+为进一步检验模型的泛化能力，研究还采用了更为严格的基于地区划分的空间交叉验证方案。结果显示，Mukara 在空间上独立的测试区域中仍保持较为稳健的预测性能，表明该模型具有较强的空间迁移能力。这一点对于面向全国尺度网络、数据稀缺区域或未来规划场景的交通建模具有重要意义。
+</p>
+
+<p style="text-align: left;">
+此外，研究团队通过消融实验系统评估了不同输入特征组与模型组件对预测性能的贡献。结果表明，所提出的模型架构具有良好的稳健性，不同类型的外部特征在交通流量形成中发挥着差异化作用。该研究不仅展示了深度学习在长期交通需求建模中的应用潜力，也为城市与区域交通规划提供了新的技术路径。
+</p>
+
+<p style="text-align: left;">
+作为银湾研究院在交通建模、空间智能与城市系统研究方向的重要成果之一，Mukara 展现了将人工智能方法引入传统交通规划体系的可行性。研究团队未来将继续推进相关工作，进一步探索更具可解释性、更具空间泛化能力的理论引导型交通建模框架，以支持健康城市、低碳交通与区域可持续发展的决策实践。
+</p>
+
+<p style="text-align: left; margin-top: 30px;">
+<strong>论文信息：</strong><br>
+Mukara: a deep learning alternative to the four-step travel demand model with a case study on interurban highway traffic prediction in the UK.<br>
+Yue Li, Shujuan Chen, Ying Jin.<br>
+<em>论文信息待补充</em>
+</p>
+
+    <p style="text-align: center;">
+        <img class="nfw-cms-img" img-id="4411939" src="../../../../img/lwcc/8.tiff" alt="../../../../img/lwcc/8.tiff"/>
     </p>
-    <p style="text-align: left;">
-        本研究利用大规模人群队列数据，结合高分辨率气象资料，系统评估热浪及短期温度波动对全因、心血管及呼吸系统死亡率的影响，并重点探究效应异质性。研究采用分布式滞后非线性模型与因果推断框架，按年龄、性别、社会经济地位、城市化程度及既往健康状况等进行分层分析，精准识别脆弱亚群。成果将为英国及类似高收入国家的气候变化适应政策、热健康预警系统优化及城市热岛缓解策略提供循证依据。
-    </p>
-    <p style="text-align: left;">
-        <strong>关键词：</strong>热浪；短期温度变化；死亡率；效应修饰；气候变化与健康
-    </p>
-    <p style="text-align: center;"><img class="nfw-cms-img" img-id="4411939" src="../../../../img/zykt/1.jpg" alt="../../../../img/zykt/1.jpg"/></p>
+
 </div>
         </div>
         <div class="fenx_con">
