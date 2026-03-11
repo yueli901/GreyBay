@@ -33,6 +33,8 @@ body {font-family: "微软雅黑", "sans-serif", "Arial";position: relative;back
 .jyzx_mune .tabs{max-width: 1520px;height: 100%; margin: 0 auto;display: flex;align-items: flex-start;}
 .jyzx_mune .tabs li{width: 13.15%;height: 100%; background: #0d5cbb;color: #fff;}
 .jyzx_mune .tabs li a{width: 100%; height: 100%; font-size: 2rem;display: flex; align-items: center;justify-content: center;}
+.jyzx_mune .tabs li.lang-switch{width: auto;margin-left: auto;padding: 0 1.5rem;}
+.jyzx_mune .tabs li.lang-switch a{font-size: 1.4rem;white-space: nowrap;}
 .jyzx_mune .tabs li div{display: none;background-color: #1c6ed4;position: relative;z-index: 10;}
 .jyzx_mune .tabs li div a{padding: 0.75rem 0; font-size: 1.5rem;}
 .jyzx_mune .tabs li .hover{background-color: #4287db;}
