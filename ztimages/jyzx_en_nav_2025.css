@@ -1,0 +1,9 @@
+/* English site navigation overrides */
+.jyzx_mune .tabs li a {
+  font-size: 1.4rem;
+}
+
+.jyzx_mune .tabs li div a {
+  font-size: 1.2rem;
+}
+
