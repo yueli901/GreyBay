@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+ <title>Knowledge transfer – GreyBay Institute</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="../../../ztimages/swiper.min20200426.css"/>
+<link rel="stylesheet" type="text/css" href="../../../ztimages/global20200426.css"/>
+<link rel="stylesheet" type="text/css" href="../../../ztimages/layout20200426.css"/>
+<link rel="stylesheet" href="../../../ztimages/jyzx_global_20240528.css">
+<script type="text/javascript" src="../../../js/jquery-3.4.0.min.js"></script>
+<script>
+$(function(){
+  if($(window).width()<780){
+    $(document).delegate(".Ydbtn","click",function(event){
+      if($(this).hasClass('hover')){
+        $(this).removeClass('hover').find('img').attr('src', '../../../ztimages/jkfzyd20200426_30.png');
+        $(this).siblings('.YdbtnCont,.more').hide();
+      } else {
+        $(this).addClass('hover').find('img').attr('src', '../../../ztimages/jkfzyd20200426_15.png');
+        $(this).siblings('.YdbtnCont,.more').show();
+      }
+    });
+  }
+});
+</script>
+<script>
+$(function(){
+  $(document).delegate(".left_menu h3","click",function(event){
+    if($(this).hasClass('hover')){
+      $(this).removeClass('hover').siblings('ul').hide();
+    } else {
+      $(this).addClass('hover').siblings('ul').show();
+    }
+  });
+});
+</script>
+<script>
+function nTabs(thisObj,Num){
+  if(thisObj.className == "hover")return;
+  var tabObj = thisObj.parentNode.id;
+  var tabList = document.getElementById(tabObj).getElementsByTagName("li");
+  for(var i=0; i<6; i++){
+    if (i == Num){
+      thisObj.className = "hover";
+      document.getElementById(tabObj+"_Content"+i).style.display = "block";
+    } else {
+      tabList[i].className = "";
+      document.getElementById(tabObj+"_Content"+i).style.display = "none";
+    }
+  }
+}
+</script>
+<script>
+    $(function() {
+    $(".YDmenu").on('click', function() { $("#menu").show(); $(".YDmenuCont_box").show(); });
+    $(".closeBtn").on('click', function() { $("#menu").hide(); $(".YDmenuCont_box").hide(); });
+    $('.tabs li').hover(
+        function () { $(this).children('.first').addClass('hover'); $(this).children('div').addClass('active'); },
+        function () { $(this).children('.first').removeClass('hover'); $(this).children('div').removeClass('active'); }
+    );
+    $('.tabs li div a').hover(
+        function () { $(this).addClass('hover'); },
+        function () { $(this).removeClass('hover'); }
+    );
+    });
+</script>
+<style>.mainList .right_cont .more a.current{ display: none; }</style>
+<style>.Listcont table {border-spacing: 1px;border-collapse: separate;} .Listcont table td div {text-align: center;padding: 10px 0;} .Listcont table td a {color:#0b5fb5;} .mainList .fenx_left{float: none; margin: 0 auto;}</style>
+</head>
+<body class="jyzx ny">
+<style>form{display: flex;align-items: center;} form .wza{margin-right: 1rem;font-size: 1.13rem;white-space: nowrap;} @media (max-width:860px){ form .wza{margin-top:3%;} }</style>
+<div class="jyzx_top">
+  <div class="jyzx_header">
+      <a href="../../index.html" class="logo"><img src="../../../ztimages/jyzx_logo_20240528.png" alt="GreyBay Institute logo"></a>
+      <div class="YDmenu ALLYdCont">Menu</div>
+      <div class="YDmenuCont_box"></div>
+      <form action="https://search.gd.gov.cn/search/local_msg/755025" method="get" target="_blank">
+          <a class="wza" href="javascript:;" onclick="aria && aria.start && aria.start()" title="Accessible browsing">Accessible</a>
+          <div class="search">
+              <input type="text" name="keywords" placeholder="Search this site">
+              <input class="btn" type="submit" value="">
+          </div>
+      </form>
+  </div>
+</div>
+<div class="jyzx_mune" id="menu">
+  <div class="top_btn ALLYdCont"><div class="closeBtn">✖</div></div>
+  <ul class="tabs">
+      <li><a class="first" href="../../index.html">Home</a></li>
+      <li>
+        <a class="first" href="../../gywm/index.html">About</a>
+        <div>
+            <a href="../../gywm/zxjj/index.html">Overview</a>
+            <a href="../../gywm/tdjs/index.html">Leadership</a>
+            <a href="../../gywm/nsbm/index.html">Departments</a>
+        </div>
+      </li>
+      <li>
+        <a class="first" href="../../yjxm/index.html">Research</a>
+        <div>
+            <a href="../../yjxm/lwcc/index.html">Publications</a>
+            <a href="../../yjxm/yjbg/index.html">Research reports</a>
+            <a href="../../yjxm/zykt/index.html">Ongoing projects</a>
+        </div>
+      </li>
+      <li>
+        <a class="first" href="../../lxwm/index.html">Contact</a>
+        <div>
+            <a href="../../lxwm/zzzc/index.html">Funding &amp; support</a>
+            <a href="../../lxwm/zlhz/index.html">Strategic partnerships</a>
+            <a href="../../lxwm/jrwm/index.html">Join us</a>
+            <a href="../../lxwm/cgzh/index.html">Knowledge transfer</a>
+        </div>
+      </li>
+  </ul>
+</div>
+<div class="jyzx_banner ALLPcCont"><img src="../../../ztimages/jyzx_banner_20240528.png" alt=""></div>
+<div class="jyzx_banner ALLYdCont"><img src="../../../ztimages/jyzx_yd_banner_20240528.png" alt=""></div>
+
+<div class="mainList">
+  <div class="nei_tit"><a href="../../index.html">GreyBay Institute</a>&nbsp;&gt;&nbsp;<a href="../../lxwm/index.html">Contact</a>&nbsp;&gt;&nbsp;<a href="../../lxwm/cgzh/">Knowledge transfer</a></div>
+  <div class="left_menu AllLeftCon">
+    <h3 class="AllYdCon">Contact</h3>
+    <ul class="AllPcCon">
+      <li><a href="../zzzc/index.html" title="Funding &amp; support">Funding &amp; support</a></li>
+      <li><a href="../zlhz/index.html" title="Strategic partnerships">Strategic partnerships</a></li>
+      <li><a href="../jrwm/index.html" title="Join us">Join us</a></li>
+      <li class="hover"><a href="index.html" title="Knowledge transfer">Knowledge transfer</a></li>
+    </ul>
+  </div>
+  <div class="right_cont AllLeftCon">
+    <div class="listtit AllFont2"><span>Knowledge transfer</span></div>
+    <div class="Listcont">
+      <div class="mainList">
+        <div class="xx_con">
+          <div class="toutit">
+            <h1>Evidence into policy, tools into practice—our approach to knowledge transfer</h1>
+            <h6>
+              <div>
+                <span>Date: 2023-04-13 09:31:23</span><span>Source: GreyBay Institute</span>
+                <span class="font">[Font: <a onclick="changeContent('18px')" href="javascript:void(0);" class="zt0">Large</a><a onclick="changeContent('16px')" href="javascript:void(0);" class="zt1">Medium</a><a onclick="changeContent('12px')" href="javascript:void(0);" class="zt2">Small</a>]</span>
+                <em class="color">Background: <a onclick="changeContent('#cefeff')" href="javascript:void(0);" class="bg"></a><a onclick="changeContent('#f8f8c3')" href="javascript:void(0);" class="bg2"></a><a onclick="changeContent('#ffc7ff')" href="javascript:void(0);" class="bg3"></a><a onclick="changeContent('#9bccfa')" href="javascript:void(0);" class="bg4"></a></em>
+              </div>
+              <div class="fenx_left"></div>
+            </h6>
+          </div>
+          <div class="news_cont_d_wrap">
+            <p>At GreyBay Institute we believe that the value of research lies not in the volume of papers but in whether it leaves the lab, enters the life of the city, and becomes action that improves public health. We have built a knowledge transfer system spanning “evidence production—technology transfer—policy embedding—market application”, turning each finding into a tangible, scalable health solution.</p>
+            <p><strong>1. Evidence into policy: empowering public decision-making</strong></p>
+            <p>Policy impact is our primary channel. We are deeply involved in Shenzhen and Greater Bay Area agendas on healthy city planning, 15-minute neighbourhoods, and active travel. We provide evidence across the policy cycle. For example, we used multi-source spatiotemporal data and causal models to assess how Shenzhen’s greenway network affects physical activity and cardiovascular health; the findings fed into the city’s park city master plan. Research on informal settlements and child asthma informed a “healthy community” pilot in Longgang. We also undertake tailored policy consulting for governments and health authorities: regional health impact assessment, scenario modelling, and health equity diagnostics, grounded in local data.</p>
+            <p><strong>2. Tools into practice: technology driving sector change</strong></p>
+            <p>We turn algorithms into reusable tools and IP. We have developed core technologies in urban environment sensing, health risk early warning, and exposure assessment. Our “urban health exposure field modelling system” uses remote sensing and street-level imagery for near real-time built environment characterisation and risk rating; the methods are patent applications and are licensed to smart city, proptech, and health insurance partners. We welcome collaboration on model licensing, joint labs, fine-tuned vertical models, and custom analytical platforms. We already work with China Resources Land, Ping An Health, and Tencent Cloud on healthy community standards and actuarial models.</p>
+            <p><strong>3. Digital products for the public</strong></p>
+            <p>We make complex health knowledge simple and usable. Our “Health Path” mini-programme uses activity and environmental data to offer respiratory risk alerts, green walking routes, and exposure advice. For community health centres we have developed a “community health profile” module to help family doctors identify vulnerable groups and target interventions. We plan to extend to age-friendly digital guidelines, children’s independent mobility tools, and commuter mental health self-assessment. We welcome tech firms, foundations, and health providers for co-development, pilots, and scaling.</p>
+            <p><strong>4. Open collaboration for multiplier effects</strong></p>
+            <p>Transfer is not one-way but multi-party co-creation. We work with government, academia, industry, and NGOs through licensing, technology transfer, R&amp;D collaboration, commissioned projects, and advisory roles. We especially welcome:</p>
+            <p>— Urban planning and design: healthy city design guidelines and post-project evaluation;<br/>
+            — Insurance and reinsurance: health risk models based on environmental exposure;<br/>
+            — Real estate and property: healthy community certification and operations standards;<br/>
+            — Digital health and wearables: personalised intervention algorithms;<br/>
+            — International organisations and foundations: Belt and Road healthy city capacity building and comparative research.</p>
+            <p>From a report to a legislative proposal, from an algorithm to an app used by millions, from a one-off project to a decade-long partnership—we believe that when science is open and applied, its impact far exceeds what stays in the lab.</p>
+            <p>GreyBay Institute looks forward to turning evidence into action and insight into answers—with you.</p>
+            <p>Knowledge transfer and partnership enquiries: <strong>contact@greybay.org</strong></p>
+          </div>
+        </div>
+        <div class="fenx_con"><div class="cont"><div class="daying"><a href="javascript:window.close();">[Close window]</a></div></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="footer_con">
+    <div class="TBcont tbright"><span class="TBright"><img width="100%" height="auto" src="../../../ztimages/wxgzh2021.png" ></span></div>
+    <div class="text">
+      <p><span>Jointly initiated by: GreyBay Institute, Greater Bay Area Institute</span></p>
+      <p><span>Tel: +86 13538048576</span><span>Address: 8 Yuanling 5th Street, Futian District, Shenzhen, Guangdong, China</span></p>
+      <p><span><a href="../../beian.miit.gov.cn/index.html">粤ICP备2021106799号</a></span></p>
+    </div>
+  </div>
+</div>
+<div class="rightNav">
+  <ul>
+    <li><a href="javascript:void(0);"><img src="../../../ztimages/jkfz20200426_10.png" /></a><img class="ewm" src="../../../ztimages/codeVR.png" ></li>
+    <li><a href="javascript:void(0);"><img src="../../../ztimages/jkfz20200426_18.png" /></a><img class="ewm" src="../../../ztimages/wsfzjkzx20200426_55.jpg" ></li>
+    <li><a href="javascript:void(0);"><img src="../../../ztimages/jkfz20200426_22.png" /></a><img class="ewm" src="../../../ztimages/wsjkfzyjzxnfw20200522.jpg" ></li>
+    <li><a href="#"><img src="../../../ztimages/jkfz20200426_24.png" /></a></li>
+  </ul>
+</div>
+<script>function changeContent(value){ if(value.indexOf('#')>= 0){ document.getElementsByClassName("news_cont_d_wrap")[0].style.backgroundColor = value }else{ document.getElementsByClassName("news_cont_d_wrap")[0].style.fontSize = value } }</script>
+<style>.rightNav li{position: relative;} .rightNav li .ewm{display: none;position: absolute;left: -100px;top: -25px;width: 100px;} .rightNav li:hover .ewm{display:block;} .footer_con{line-height: 2.5} .footer_con .TBcont {width:20%;z-index: 9;} .tbright{right: 0px;} .footer_con .text{text-align:left;} @media (max-width: 780px){.footer_con .tbright{top: 5em;} } @media (max-width: 860px){ .rightNav{right: 0.6em;} .rightNav li { margin: 0 0 0.7em 0; width: 2em;} .footer_con .TBcont {width: 50%;position: unset;} .footer_con {width: 94%;flex-wrap: wrap;line-height: unset;} .footer_con .text {padding: 0;} .footer_con .text span{display:block;} .footer_con .text span,.footer_con .text a{line-height: 2.6rem;font-size: 1.5rem;} .footer_con .text{text-align: center;} }</style>
+</body>
+</html>

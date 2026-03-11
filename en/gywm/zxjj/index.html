@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+ <title>About GreyBay Institute</title>   
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="../../../ztimages/swiper.min20200426.css"/>
+<link rel="stylesheet" type="text/css" href="../../../ztimages/global20200426.css"/>
+<link rel="stylesheet" type="text/css" href="../../../ztimages/layout20200426.css"/>
+<link rel="stylesheet" href="../../../ztimages/jyzx_global_20240528.css">
+<script type="text/javascript" src="../../../js/jquery-3.4.0.min.js"></script> 
+<script>
+$(function(){
+  if($(window).width()<780){
+    $(document).delegate(".Ydbtn","click",function(event){
+      if($(this).hasClass('hover')){
+        $(this).removeClass('hover').find('img').attr('src', '../../../ztimages/jkfzyd20200426_30.png');
+        $(this).siblings('.YdbtnCont,.more').hide();
+      } else { 
+        $(this).addClass('hover').find('img').attr('src', '../../../ztimages/jkfzyd20200426_15.png');
+        $(this).siblings('.YdbtnCont,.more').show();
+      }
+    });
+  }
+});
+</script>
+<script>
+$(function(){
+  $(document).delegate(".left_menu h3","click",function(event){
+    if($(this).hasClass('hover')){
+      $(this).removeClass('hover').siblings('ul').hide();
+    } else { 
+      $(this).addClass('hover').siblings('ul').show();
+    }
+  });
+});
+</script>
+<script>
+function nTabs(thisObj,Num){
+  if(thisObj.className == "hover")return;
+  var tabObj = thisObj.parentNode.id;
+  var tabList = document.getElementById(tabObj).getElementsByTagName("li");
+  for(var i=0; i<6; i++){
+    if (i == Num){
+      thisObj.className = "hover"; 
+      document.getElementById(tabObj+"_Content"+i).style.display = "block";
+    } else {
+      tabList[i].className = ""; 
+      document.getElementById(tabObj+"_Content"+i).style.display = "none";
+    }
+  }
+}
+</script>
+<script>
+    $(function() {	
+    $(".YDmenu").on('click', function() {
+        $("#menu").show();
+        $(".YDmenuCont_box").show();
+        });
+    $(".closeBtn").on('click', function() {
+        $("#menu").hide();
+        $(".YDmenuCont_box").hide();
+        });
+	    $('.tabs li').hover(
+            function () {
+                $(this).children('.first').addClass('hover')
+                $(this).children('div').addClass('active')
+            },
+            function () {
+                $(this).children('.first').removeClass('hover')
+                $(this).children('div').removeClass('active')
+        })
+        $('.tabs li div a').hover(
+            function () {
+                $(this).addClass('hover')
+            },
+            function () {
+                $(this).removeClass('hover')
+        })
+    });
+</script>
+</head>
+<body class="jyzx ny">
+<style>
+form{display: flex;align-items: center;}
+form .wza{margin-right: 1rem;font-size: 1.13rem;white-space: nowrap;}
+@media (max-width:860px){
+  form .wza{margin-top:3%;}
+}
+</style>
+<div class="jyzx_top">
+  <div class="jyzx_header">
+      <a href="../../index.html" class="logo"><img src="../../../ztimages/jyzx_logo_20240528.png" alt="GreyBay Institute logo"></a>
+      <div class="YDmenu ALLYdCont">Menu</div>
+      <div class="YDmenuCont_box"></div>
+      <form action="https://search.gd.gov.cn/search/local_msg/755025" method="get" target="_blank"> 
+          <a class="wza" href="javascript:;" onclick="aria && aria.start && aria.start()" clickhide="false"  title="Accessible browsing">Accessible</a>
+          <div class="search">
+              <input type="text" name="keywords" placeholder="Search this site">
+              <input class="btn" type="submit" value="">
+          </div>
+      </form>
+  </div>
+</div>
+<div class="jyzx_mune" id="menu">
+  <div class="top_btn ALLYdCont">
+      <div class="closeBtn">✖</div>
+  </div>
+  <ul class="tabs">
+      <li><a class="first" href="../../index.html">Home</a></li>
+      <li>
+        <a class="first" href="../../gywm/index.html">About</a>
+        <div>
+            <a href="../zxjj/index.html">Overview</a>
+            <a href="../tdjs/index.html">Leadership</a>
+            <a href="../nsbm/index.html">Departments</a>
+        </div>
+      </li>
+      <li>
+        <a class="first" href="../../yjxm/index.html">Research</a>
+        <div>
+            <a href="../../yjxm/lwcc/index.html">Publications</a>
+            <a href="../../yjxm/yjbg/index.html">Research reports</a>
+            <a href="../../yjxm/zykt/index.html">Ongoing projects</a>
+        </div>
+      </li>
+      <li>
+        <a class="first" href="../../lxwm/index.html">Contact</a>
+        <div>
+            <a href="../../lxwm/zzzc/index.html">Funding &amp; support</a>
+            <a href="../../lxwm/zlhz/index.html">Strategic partnerships</a>
+            <a href="../../lxwm/jrwm/index.html">Join us</a>
+            <a href="../../lxwm/cgzh/index.html">Knowledge transfer</a>
+        </div>
+      </li>
+  </ul>
+</div>
+<div class="jyzx_banner ALLPcCont"><img src="../../../ztimages/jyzx_banner_20240528.png" alt=""></div>
+<div class="jyzx_banner ALLYdCont"><img src="../../../ztimages/jyzx_yd_banner_20240528.png" alt=""></div>
+
+<div class="mainList">
+  <div class="nei_tit">
+    <a href="../../index.html">GreyBay Institute</a>&nbsp;&gt;&nbsp;
+    <a href="../../gywm/index.html">About</a>&nbsp;&gt;&nbsp;
+    <a href="../../gywm/zxjj/">Overview</a>
+  </div>
+  <div class="left_menu AllLeftCon">
+    <h3 class="AllYdCon">About</h3>
+    <ul class="AllPcCon">
+      <li class="hover"><a href="index.html" title="Overview">Overview</a></li>
+      <li><a href="../tdjs/index.html" title="Leadership">Leadership</a></li>
+      <li><a href="../nsbm/index.html" title="Departments">Departments</a></li>
+    </ul>
+  </div>
+  <div class="right_cont AllLeftCon">
+    <div class="listtit AllFont2"><span>Overview</span></div>
+    <div class="Listcont">
+      <div class="mainList">
+        <div class="xx_con">
+          <div class="toutit">
+            <h1>Introducing GreyBay Institute</h1>
+            <h6>
+              <div>
+                <span>Updated: 2022-02-21 09:39:07</span>
+                <span>Source: GreyBay Institute</span>
+                <span class="font">[Font size:
+                  <a onclick="changeContent('18px')" href="javascript:void(0);" class="zt0">Large</a>
+                  <a onclick="changeContent('16px')" href="javascript:void(0);" class="zt1">Medium</a>
+                  <a onclick="changeContent('12px')" href="javascript:void(0);" class="zt2">Small</a> ]</span>
+                <em class="color">Background:
+                  <a onclick="changeContent('#cefeff')" href="javascript:void(0);" class="bg"></a>
+                  <a onclick="changeContent('#f8f8c3')" href="javascript:void(0);" class="bg2"></a>
+                  <a onclick="changeContent('#ffc7ff')" href="javascript:void(0);" class="bg3"></a>
+                  <a onclick="changeContent('#9bccfa')" href="javascript:void(0);" class="bg4"></a>
+                </em>
+              </div>
+              <div class="fenx_left"></div>
+            </h6>
+          </div>
+          <div class="news_cont_d_wrap">
+            <p>
+              GreyBay Institute is a non-profit, public-interest research organisation rooted in Shenzhen and oriented towards the world. Based in the core city of the Guangdong–Hong Kong–Macao Greater Bay Area, we draw on the region’s vibrant innovation ecosystem and strong technology base to build a forward-looking platform for urban health research. Guided by the core values of scientific integrity, data-driven evidence, and public interest, we conduct rigorous, independent research to unpack the complex relationships between urban environments, social structures, and population health, providing insights and solutions to support healthier and more sustainable cities in China and beyond.
+            </p>
+            <p>
+              Our central mission is to build a robust bridge between scientific research and public policy. We believe that the ultimate value of research lies in its ability to inform effective actions that improve people’s lives. Accordingly, the core goal of our work is to generate high-quality evidence that can directly guide and optimise public policies.
+            </p>
+            <p>
+              Substantively, we focus on the frontier where the built environment, urban systems, and public health intersect. Drawing on theories and methods from urban planning, transport planning, environmental health, epidemiology, public administration, and behavioural sciences, we systematically study how urban form, land use, transport systems, and green infrastructure affect both physical and mental health through complex pathways. We pay particular attention to emerging health challenges in rapidly urbanising contexts and aim to provide scientific blueprints for creating cities that are fairer, safer, and more health-promoting.
+            </p>
+            <p>
+              Methodologically, we combine rigour with innovation. On one hand, we rely on established statistical models to conduct robust causal inference and risk assessment, ensuring the reliability and reproducibility of our findings. On the other hand, we actively introduce machine learning, deep learning, and modern causal inference methods to mine and analyse multi-source, high-dimensional urban data, revealing complex patterns and mechanisms that are difficult to capture with traditional tools alone. This combination of strong foundations and frontier methods allows us to more comprehensively and precisely identify the urban determinants of health and to evaluate the potential impact of policy interventions.
+            </p>
+            <p>
+              The significance of our work lies in tightly coupling the depth of academic inquiry with the precision of policy relevance. Every project begins with a real urban health problem and ends with clear policy implications. Our evidence is designed to:
+            </p>
+            <p>
+              1. Anticipate risk: identify health hazards embedded in urban environments and provide forward-looking inputs for prevention and preparedness.<br/>
+              2. Evaluate impact: objectively assess the real-world effects of existing policies and programmes, answering what works, what does not, and for whom.<br/>
+              3. Simulate interventions: project the health benefits of alternative planning and policy options to support evidence-informed optimisation of decisions.<br/>
+              4. Promote equity: map the spatial distribution and drivers of health inequalities in cities and provide targeted recommendations to advance health equity.
+            </p>
+            <p>
+              By translating complex scientific findings into decision-ready options and implementation pathways, we strive to make research a powerful engine for better urban governance and population health. GreyBay Institute is not only a researcher of urban health issues, but also an advocate and partner in building healthy cities. We look forward to working with stakeholders from government, academia, industry, and civil society to co-create urban futures that are more resilient, more humane, and more conducive to health.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="footer_con">
+    <div class="TBcont tbright">
+        <span class="TBright"><img width="100%" height="auto" src="../../../ztimages/wxgzh2021.png" ></span>
+    </div>
+    <div class="text">
+      <p><span>Jointly initiated by: GreyBay Institute, Greater Bay Area Institute</span></p>
+      <p><span>Tel: +86 13538048576</span><span>Address: 8 Yuanling 5th Street, Futian District, Shenzhen, Guangdong, China</span></p>
+      <p><span><a href="../../beian.miit.gov.cn/index.html">粤ICP备2021106799号</a></span></p>
+    </div>
+  </div>
+</div>
+<div class="rightNav">
+  <ul>
+    <li><a href="javascript:void(0);"><img src="../../../ztimages/jkfz20200426_10.png" /></a><img class="ewm" src="../../../ztimages/codeVR.png" ></li>
+    <li><a href="javascript:void(0);"><img src="../../../ztimages/jkfz20200426_18.png" /></a><img class="ewm" src="../../../ztimages/wsfzjkzx20200426_55.jpg" ></li>
+    <li><a href="javascript:void(0);"><img src="../../../ztimages/jkfz20200426_22.png" /></a><img class="ewm" src="../../../ztimages/wsjkfzyjzxnfw20200522.jpg" ></li>
+    <li><a href="#"><img src="../../../ztimages/jkfz20200426_24.png" /></a></li>
+  </ul>
+</div>
+<script>
+  function changeContent(value){
+    if(value.indexOf('#')>= 0){
+      document.getElementsByClassName("news_cont_d_wrap")[0].style.backgroundColor = value;
+    }else{
+      document.getElementsByClassName("news_cont_d_wrap")[0].style.fontSize = value;
+    }
+  }
+</script>
+<style>
+  .rightNav li{position: relative;}
+  .rightNav li .ewm{
+    display: none;
+    position: absolute;
+    left: -100px;
+    top: -25px;
+    width: 100px;
+  }
+  .rightNav li:hover .ewm{display:block;}
+  .footer_con{line-height: 2.5}
+  .footer_con .TBcont {width:20%;z-index: 9;}
+  .tbright{right: 0px;}
+  .footer_con .text{text-align:left;}
+  @media (max-width: 780px){
+    .footer_con .tbright{top: 5em;}
+    .rightNav{right: 0.6em;}
+    .rightNav li { margin: 0 0 0.7em 0; width: 2em;}
+    .footer_con .TBcont {width: 50%;position: unset;}
+    .footer_con {width: 94%;flex-wrap: wrap;line-height: unset;}
+    .footer_con .text {padding:  0;}
+    .footer_con .text span{display:block;}
+    .footer_con .text span,.footer_con .text a{line-height: 2.6rem;font-size: 1.5rem;}
+    .footer_con .text{text-align: center;}
+  }
+</style>
+</body>
+</html>
+

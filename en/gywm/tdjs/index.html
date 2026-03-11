@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+ <title>Leadership – GreyBay Institute</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="../../../ztimages/swiper.min20200426.css"/>
+<link rel="stylesheet" type="text/css" href="../../../ztimages/global20200426.css"/>
+<link rel="stylesheet" type="text/css" href="../../../ztimages/layout20200426.css"/>
+<link rel="stylesheet" href="../../../ztimages/jyzx_global_20240528.css">
+<script type="text/javascript" src="../../../js/jquery-3.4.0.min.js"></script>
+<script>
+$(function(){
+  if($(window).width()<780){
+    $(document).delegate(".Ydbtn","click",function(event){
+      if($(this).hasClass('hover')){
+        $(this).removeClass('hover').find('img').attr('src', '../../../ztimages/jkfzyd20200426_30.png');
+        $(this).siblings('.YdbtnCont,.more').hide();
+      } else {
+        $(this).addClass('hover').find('img').attr('src', '../../../ztimages/jkfzyd20200426_15.png');
+        $(this).siblings('.YdbtnCont,.more').show();
+      }
+    });
+  }
+});
+</script>
+<script>
+$(function(){
+  $(document).delegate(".left_menu h3","click",function(event){
+    if($(this).hasClass('hover')){
+      $(this).removeClass('hover').siblings('ul').hide();
+    } else {
+      $(this).addClass('hover').siblings('ul').show();
+    }
+  });
+});
+</script>
+<script>
+function nTabs(thisObj,Num){
+  if(thisObj.className == "hover")return;
+  var tabObj = thisObj.parentNode.id;
+  var tabList = document.getElementById(tabObj).getElementsByTagName("li");
+  for(var i=0; i<6; i++){
+    if (i == Num){
+      thisObj.className = "hover";
+      document.getElementById(tabObj+"_Content"+i).style.display = "block";
+    } else {
+      tabList[i].className = "";
+      document.getElementById(tabObj+"_Content"+i).style.display = "none";
+    }
+  }
+}
+</script>
+<script>
+    $(function() {
+    $(".YDmenu").on('click', function() {
+        $("#menu").show();
+        $(".YDmenuCont_box").show();
+        });
+    $(".closeBtn").on('click', function() {
+        $("#menu").hide();
+        $(".YDmenuCont_box").hide();
+        });
+	    $('.tabs li').hover(
+            function () {
+                $(this).children('.first').addClass('hover')
+                $(this).children('div').addClass('active')
+            },
+            function () {
+                $(this).children('.first').removeClass('hover')
+                $(this).children('div').removeClass('active')
+        })
+        $('.tabs li div a').hover(
+            function () {
+                $(this).addClass('hover')
+            },
+            function () {
+                $(this).removeClass('hover')
+        })
+    });
+</script>
+<style>.mainList .right_cont .more a.current{ display: none; }</style>
+<style>
+    .Listcont table {border-spacing: 1px;border-collapse: separate;}
+    .Listcont table td div {text-align: center;padding: 10px 0;}
+    .Listcont table td a {color:#0b5fb5;}
+</style>
+</head>
+<body class="jyzx ny">
+<style>
+form{display: flex;align-items: center;}
+form .wza{margin-right: 1rem;font-size: 1.13rem;white-space: nowrap;}
+@media (max-width:860px){ form .wza{margin-top:3%;} }
+</style>
+<div class="jyzx_top">
+  <div class="jyzx_header">
+      <a href="../../index.html" class="logo"><img src="../../../ztimages/jyzx_logo_20240528.png" alt="GreyBay Institute logo"></a>
+      <div class="YDmenu ALLYdCont">Menu</div>
+      <div class="YDmenuCont_box"></div>
+      <form action="https://search.gd.gov.cn/search/local_msg/755025" method="get" target="_blank">
+          <a class="wza" href="javascript:;" onclick="aria && aria.start && aria.start()" title="Accessible browsing">Accessible</a>
+          <div class="search">
+              <input type="text" name="keywords" placeholder="Search this site">
+              <input class="btn" type="submit" value="">
+          </div>
+      </form>
+  </div>
+</div>
+<div class="jyzx_mune" id="menu">
+  <div class="top_btn ALLYdCont"><div class="closeBtn">✖</div></div>
+  <ul class="tabs">
+      <li><a class="first" href="../../index.html">Home</a></li>
+      <li>
+        <a class="first" href="../../gywm/index.html">About</a>
+        <div>
+            <a href="../zxjj/index.html">Overview</a>
+            <a href="../tdjs/index.html">Leadership</a>
+            <a href="../nsbm/index.html">Departments</a>
+        </div>
+      </li>
+      <li>
+        <a class="first" href="../../yjxm/index.html">Research</a>
+        <div>
+            <a href="../../yjxm/lwcc/index.html">Publications</a>
+            <a href="../../yjxm/yjbg/index.html">Research reports</a>
+            <a href="../../yjxm/zykt/index.html">Ongoing projects</a>
+        </div>
+      </li>
+      <li>
+        <a class="first" href="../../lxwm/index.html">Contact</a>
+        <div>
+            <a href="../../lxwm/zzzc/index.html">Funding &amp; support</a>
+            <a href="../../lxwm/zlhz/index.html">Strategic partnerships</a>
+            <a href="../../lxwm/jrwm/index.html">Join us</a>
+            <a href="../../lxwm/cgzh/index.html">Knowledge transfer</a>
+        </div>
+      </li>
+  </ul>
+</div>
+<div class="jyzx_banner ALLPcCont"><img src="../../../ztimages/jyzx_banner_20240528.png" alt=""></div>
+<div class="jyzx_banner ALLYdCont"><img src="../../../ztimages/jyzx_yd_banner_20240528.png" alt=""></div>
+
+<div class="mainList">
+  <div class="nei_tit">
+    <a href="../../index.html">GreyBay Institute</a>&nbsp;&gt;&nbsp;
+    <a href="../../gywm/index.html">About</a>&nbsp;&gt;&nbsp;
+    <a href="../../gywm/tdjs/index.html">Leadership</a>
+  </div>
+  <div class="left_menu AllLeftCon">
+    <h3 class="AllYdCon">About</h3>
+    <ul class="AllPcCon">
+      <li><a href="../zxjj/index.html" title="Overview">Overview</a></li>
+      <li class="hover"><a href="index.html" title="Leadership">Leadership</a></li>
+      <li><a href="../nsbm/index.html" title="Departments">Departments</a></li>
+    </ul>
+  </div>
+  <div class="right_cont AllLeftCon">
+    <div class="listtit AllFont2"><span>Leadership</span></div>
+    <div class="Listcont">
+      <table width="95%" align="center" class="atable5" style="-webkit-border-vertical-spacing:0" border="0" cellspacing="0" cellpadding="0">
+        <tbody><tr>
+          <td width="100%" class="STYLE4" valign="top">
+            <table width="100%" align="center" class="aa" bgcolor="#0fbfdf" border="0" cellspacing="1" cellpadding="3">
+              <tbody>
+                <tr bgcolor="#dff2ff">
+                  <td width="10%"><div align="center" class="STYLE3">Name</div></td>
+                  <td width="20%"><div align="center" class="STYLE3">Role</div></td>
+                  <td width="70%"><div align="center" class="STYLE3">Responsibilities</div></td>
+                </tr>
+                <tr bgcolor="#ffffff">
+                  <td width="10%" height="25"><div align="center">Chen Mingyuan</div></td>
+                  <td width="20%" height="25"><div align="center" class="STYLE4">Director</div></td>
+                  <td width="70%" height="25" style="padding-left:10px"><div class="STYLE4">Overall responsibility for GreyBay Institute. Oversees the Administration &amp; Operations Office. Deputy cover: Zhang Min.</div></td>
+                </tr>
+                <tr bgcolor="#ffffff">
+                  <td width="10%" height="25"><div align="center">Zhang Min</div></td>
+                  <td width="20%" height="25"><div align="center" class="STYLE4">Deputy Director</div></td>
+                  <td width="70%" height="25" style="padding-left:10px"><div class="STYLE4">Oversees Research Division I (Urban Environment &amp; Health) and the Research Operations Office. Deputy cover for the Director; shares cover with Li Wei.</div></td>
+                </tr>
+                <tr bgcolor="#ffffff">
+                  <td width="10%" height="25"><div align="center">Li Wei</div></td>
+                  <td width="20%" height="25"><div align="center" class="STYLE4">Deputy Director</div></td>
+                  <td width="70%" height="25" style="padding-left:10px"><div class="STYLE4">Oversees Research Division II (Data Science &amp; Policy Evaluation) and the Data Platform &amp; Technology Department. Shares cover with Zhang Min.</div></td>
+                </tr>
+                <tr bgcolor="#ffffff">
+                  <td width="10%" height="25"><div align="center">Wang Hui</div></td>
+                  <td width="20%" height="25"><div align="center" class="STYLE4">Deputy Director</div></td>
+                  <td width="70%" height="25" style="padding-left:10px"><div class="STYLE4">Oversees the Legal &amp; Compliance Office and the Communications &amp; Engagement Office. Shares cover with Zhao Yifan.</div></td>
+                </tr>
+                <tr bgcolor="#ffffff">
+                  <td width="10%" height="25"><div align="center">Zhao Yifan</div></td>
+                  <td width="20%" height="25"><div align="center" class="STYLE4">Deputy Director</div></td>
+                  <td width="70%" height="25" style="padding-left:10px"><div class="STYLE4">Oversees the Finance &amp; Grants Department and Administration &amp; Operations (logistics). Shares cover with Wang Hui.</div></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody></table>
+    </div>
+    <div class="page">
+      <a class="first" href="index.html">First</a>
+      <a class="current" href="index.html">1</a>
+      <a class="last" href="index.html">Last</a>
+    </div>
+    <div class="more">
+      <a class="first" href="index.html">First</a>
+      <a class="current" href="index.html">1</a>
+      <a class="last" href="index.html">Last</a>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="footer_con">
+    <div class="TBcont tbright">
+      <span class="TBright"><img width="100%" height="auto" src="../../../ztimages/wxgzh2021.png" ></span>
+    </div>
+    <div class="text">
+      <p><span>Jointly initiated by: GreyBay Institute, Greater Bay Area Institute</span></p>
+      <p><span>Tel: +86 13538048576</span><span>Address: 8 Yuanling 5th Street, Futian District, Shenzhen, Guangdong, China</span></p>
+      <p><span><a href="../../beian.miit.gov.cn/index.html">粤ICP备2021106799号</a></span></p>
+    </div>
+  </div>
+</div>
+<div class="rightNav">
+  <ul>
+    <li><a href="javascript:void(0);"><img src="../../../ztimages/jkfz20200426_10.png" /></a><img class="ewm" src="../../../ztimages/codeVR.png" ></li>
+    <li><a href="javascript:void(0);"><img src="../../../ztimages/jkfz20200426_18.png" /></a><img class="ewm" src="../../../ztimages/wsfzjkzx20200426_55.jpg" ></li>
+    <li><a href="javascript:void(0);"><img src="../../../ztimages/jkfz20200426_22.png" /></a><img class="ewm" src="../../../ztimages/wsjkfzyjzxnfw20200522.jpg" ></li>
+    <li><a href="#"><img src="../../../ztimages/jkfz20200426_24.png" /></a></li>
+  </ul>
+</div>
+<style>
+  .footer_con .text{text-align:left;}
+  .rightNav li{position: relative;}
+  .rightNav li .ewm{display: none;position: absolute;left: -100px;top: -25px;width: 100px;}
+  .rightNav li:hover .ewm{display:block;}
+  .footer_con{line-height: 2.5}
+  .footer_con .TBcont {width:20%;z-index: 9;}
+  .tbright{right: 0px;}
+  @media (max-width: 780px){ .footer_con .tbright{top: 5em;} }
+  @media (max-width: 860px){
+    .rightNav{right: 0.6em;}
+    .rightNav li { margin: 0 0 0.7em 0; width: 2em;}
+    .footer_con .TBcont {width: 50%;position: unset;}
+    .footer_con {width: 94%;flex-wrap: wrap;line-height: unset;}
+    .footer_con .text {padding:  0;}
+    .footer_con .text span{display:block;}
+    .footer_con .text span,.footer_con .text a{line-height: 2.6rem;font-size: 1.5rem;}
+    .footer_con .text{text-align: center;}
+  }
+</style>
+</body>
+</html>

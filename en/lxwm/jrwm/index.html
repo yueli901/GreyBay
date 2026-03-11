@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+ <title>Join us – GreyBay Institute</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="../../../ztimages/swiper.min20200426.css"/>
+<link rel="stylesheet" type="text/css" href="../../../ztimages/global20200426.css"/>
+<link rel="stylesheet" type="text/css" href="../../../ztimages/layout20200426.css"/>
+<link rel="stylesheet" href="../../../ztimages/jyzx_global_20240528.css">
+<script type="text/javascript" src="../../../js/jquery-3.4.0.min.js"></script>
+<script>
+$(function(){
+  if($(window).width()<780){
+    $(document).delegate(".Ydbtn","click",function(event){
+      if($(this).hasClass('hover')){
+        $(this).removeClass('hover').find('img').attr('src', '../../../ztimages/jkfzyd20200426_30.png');
+        $(this).siblings('.YdbtnCont,.more').hide();
+      } else {
+        $(this).addClass('hover').find('img').attr('src', '../../../ztimages/jkfzyd20200426_15.png');
+        $(this).siblings('.YdbtnCont,.more').show();
+      }
+    });
+  }
+});
+</script>
+<script>
+$(function(){
+  $(document).delegate(".left_menu h3","click",function(event){
+    if($(this).hasClass('hover')){
+      $(this).removeClass('hover').siblings('ul').hide();
+    } else {
+      $(this).addClass('hover').siblings('ul').show();
+    }
+  });
+});
+</script>
+<script>
+function nTabs(thisObj,Num){
+  if(thisObj.className == "hover")return;
+  var tabObj = thisObj.parentNode.id;
+  var tabList = document.getElementById(tabObj).getElementsByTagName("li");
+  for(var i=0; i<6; i++){
+    if (i == Num){
+      thisObj.className = "hover";
+      document.getElementById(tabObj+"_Content"+i).style.display = "block";
+    } else {
+      tabList[i].className = "";
+      document.getElementById(tabObj+"_Content"+i).style.display = "none";
+    }
+  }
+}
+</script>
+<script>
+    $(function() {
+    $(".YDmenu").on('click', function() { $("#menu").show(); $(".YDmenuCont_box").show(); });
+    $(".closeBtn").on('click', function() { $("#menu").hide(); $(".YDmenuCont_box").hide(); });
+    $('.tabs li').hover(
+        function () { $(this).children('.first').addClass('hover'); $(this).children('div').addClass('active'); },
+        function () { $(this).children('.first').removeClass('hover'); $(this).children('div').removeClass('active'); }
+    );
+    $('.tabs li div a').hover(
+        function () { $(this).addClass('hover'); },
+        function () { $(this).removeClass('hover'); }
+    );
+    });
+</script>
+<style>.mainList .right_cont .more a.current{ display: none; }</style>
+<style>.Listcont table {border-spacing: 1px;border-collapse: separate;} .Listcont table td div {text-align: center;padding: 10px 0;} .Listcont table td a {color:#0b5fb5;} .mainList .fenx_left{float: none; margin: 0 auto;}</style>
+</head>
+<body class="jyzx ny">
+<style>form{display: flex;align-items: center;} form .wza{margin-right: 1rem;font-size: 1.13rem;white-space: nowrap;} @media (max-width:860px){ form .wza{margin-top:3%;} }</style>
+<div class="jyzx_top">
+  <div class="jyzx_header">
+      <a href="../../index.html" class="logo"><img src="../../../ztimages/jyzx_logo_20240528.png" alt="GreyBay Institute logo"></a>
+      <div class="YDmenu ALLYdCont">Menu</div>
+      <div class="YDmenuCont_box"></div>
+      <form action="https://search.gd.gov.cn/search/local_msg/755025" method="get" target="_blank">
+          <a class="wza" href="javascript:;" onclick="aria && aria.start && aria.start()" title="Accessible browsing">Accessible</a>
+          <div class="search">
+              <input type="text" name="keywords" placeholder="Search this site">
+              <input class="btn" type="submit" value="">
+          </div>
+      </form>
+  </div>
+</div>
+<div class="jyzx_mune" id="menu">
+  <div class="top_btn ALLYdCont"><div class="closeBtn">✖</div></div>
+  <ul class="tabs">
+      <li><a class="first" href="../../index.html">Home</a></li>
+      <li>
+        <a class="first" href="../../gywm/index.html">About</a>
+        <div>
+            <a href="../../gywm/zxjj/index.html">Overview</a>
+            <a href="../../gywm/tdjs/index.html">Leadership</a>
+            <a href="../../gywm/nsbm/index.html">Departments</a>
+        </div>
+      </li>
+      <li>
+        <a class="first" href="../../yjxm/index.html">Research</a>
+        <div>
+            <a href="../../yjxm/lwcc/index.html">Publications</a>
+            <a href="../../yjxm/yjbg/index.html">Research reports</a>
+            <a href="../../yjxm/zykt/index.html">Ongoing projects</a>
+        </div>
+      </li>
+      <li>
+        <a class="first" href="../../lxwm/index.html">Contact</a>
+        <div>
+            <a href="../../lxwm/zzzc/index.html">Funding &amp; support</a>
+            <a href="../../lxwm/zlhz/index.html">Strategic partnerships</a>
+            <a href="../../lxwm/jrwm/index.html">Join us</a>
+            <a href="../../lxwm/cgzh/index.html">Knowledge transfer</a>
+        </div>
+      </li>
+  </ul>
+</div>
+<div class="jyzx_banner ALLPcCont"><img src="../../../ztimages/jyzx_banner_20240528.png" alt=""></div>
+<div class="jyzx_banner ALLYdCont"><img src="../../../ztimages/jyzx_yd_banner_20240528.png" alt=""></div>
+
+<div class="mainList">
+  <div class="nei_tit"><a href="../../index.html">GreyBay Institute</a>&nbsp;&gt;&nbsp;<a href="../../lxwm/index.html">Contact</a>&nbsp;&gt;&nbsp;<a href="../../lxwm/jrwm/">Join us</a></div>
+  <div class="left_menu AllLeftCon">
+    <h3 class="AllYdCon">Contact</h3>
+    <ul class="AllPcCon">
+      <li><a href="../zzzc/index.html" title="Funding &amp; support">Funding &amp; support</a></li>
+      <li><a href="../zlhz/index.html" title="Strategic partnerships">Strategic partnerships</a></li>
+      <li class="hover"><a href="index.html" title="Join us">Join us</a></li>
+      <li><a href="../cgzh/index.html" title="Knowledge transfer">Knowledge transfer</a></li>
+    </ul>
+  </div>
+  <div class="right_cont AllLeftCon">
+    <div class="listtit AllFont2"><span>Join us</span></div>
+    <div class="Listcont">
+      <div class="mainList">
+        <div class="xx_con">
+          <div class="toutit">
+            <h1>Careers</h1>
+            <h6>
+              <div>
+                <span>Date: 2023-04-13 09:33:20</span><span>Source: GreyBay Institute</span>
+                <span class="font">[Font: <a onclick="changeContent('18px')" href="javascript:void(0);" class="zt0">Large</a><a onclick="changeContent('16px')" href="javascript:void(0);" class="zt1">Medium</a><a onclick="changeContent('12px')" href="javascript:void(0);" class="zt2">Small</a>]</span>
+                <em class="color">Background: <a onclick="changeContent('#cefeff')" href="javascript:void(0);" class="bg"></a><a onclick="changeContent('#f8f8c3')" href="javascript:void(0);" class="bg2"></a><a onclick="changeContent('#ffc7ff')" href="javascript:void(0);" class="bg3"></a><a onclick="changeContent('#9bccfa')" href="javascript:void(0);" class="bg4"></a></em>
+              </div>
+              <div class="fenx_left"></div>
+            </h6>
+          </div>
+          <div class="news_cont_d_wrap">
+            <p>At GreyBay Institute we believe that the best research comes from genuine concern for real-world problems, and that the furthest reach begins with a team of idealists working together with professionalism. We are looking for people with scientific rigour, care for others, and a willingness to act—whether you are a researcher or an engineer, if you care about the intersection of cities and health, this is a place where your work can have real impact.</p>
+            <p>We offer competitive pay, benefits, an open team culture, and above all a stage where your research is seen and used. Here, every line of code, every report, every analysis can help shape policies and tools that improve the health of millions.</p>
+            <p><strong>1. Open positions</strong></p>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr bgcolor="#dff2ff">
+                  <td width="15%"><div align="center" class="STYLE3">Position</div></td>
+                  <td width="20%"><div align="center" class="STYLE3">Department</div></td>
+                  <td width="65%"><div align="center" class="STYLE3">Responsibilities</div></td>
+                </tr>
+                <tr bgcolor="#ffffff">
+                  <td width="15%" height="25"><div align="center">Assistant Researcher</div></td>
+                  <td width="20%" height="25"><div align="center" class="STYLE4">Research Division I (Urban Environment &amp; Health)</div></td>
+                  <td width="65%" height="25" style="padding-left:10px"><div class="STYLE4">Conduct empirical research on urban environment and population health; literature review, data cleaning, analysis, and report writing; support fieldwork and policy case studies; support project delivery.</div></td>
+                </tr>
+                <tr bgcolor="#ffffff">
+                  <td width="15%" height="25"><div align="center">Assistant Researcher</div></td>
+                  <td width="20%" height="25"><div align="center" class="STYLE4">Research Division II (Data Science &amp; Policy Evaluation)</div></td>
+                  <td width="65%" height="25" style="padding-left:10px"><div class="STYLE4">Policy evaluation and causal inference; multi-source health data modelling and analysis; develop and refine ML algorithms for risk prediction and policy scenario simulation; technical reports and papers.</div></td>
+                </tr>
+                <tr bgcolor="#ffffff">
+                  <td width="15%" height="25"><div align="center">Postdoctoral Researcher</div></td>
+                  <td width="20%" height="25"><div align="center" class="STYLE4">Research Division I / II</div></td>
+                  <td width="65%" height="25" style="padding-left:10px"><div class="STYLE4">Frontier research on built environment and health, causal inference, healthy city assessment; lead project design, analysis, and publication; supervise interns and collaborate across disciplines.</div></td>
+                </tr>
+                <tr bgcolor="#ffffff">
+                  <td width="15%" height="25"><div align="center">Data Engineer</div></td>
+                  <td width="20%" height="25"><div align="center" class="STYLE4">Data Platform &amp; Technology</div></td>
+                  <td width="65%" height="25" style="padding-left:10px"><div class="STYLE4">Design and maintain the Institute’s data platform; build ETL pipelines for automated ingestion, cleaning, and standardisation; ensure high availability and performance of storage and compute.</div></td>
+                </tr>
+                <tr bgcolor="#ffffff">
+                  <td width="15%" height="25"><div align="center">Backend Engineer</div></td>
+                  <td width="20%" height="25"><div align="center" class="STYLE4">Data Platform &amp; Technology</div></td>
+                  <td width="65%" height="25" style="padding-left:10px"><div class="STYLE4">Backend development for data visualisation platforms, internal tools, and public-interest apps; design and optimise APIs; system stability and security; technology selection and performance tuning.</div></td>
+                </tr>
+                <tr bgcolor="#ffffff">
+                  <td width="15%" height="25"><div align="center">Frontend Engineer</div></td>
+                  <td width="20%" height="25"><div align="center" class="STYLE4">Data Platform &amp; Technology</div></td>
+                  <td width="65%" height="25" style="padding-left:10px"><div class="STYLE4">Develop and iterate the Institute website, data dashboards, and public-interest web apps; work with backend and researchers to turn data insights into clear, usable interfaces.</div></td>
+                </tr>
+                <tr bgcolor="#ffffff">
+                  <td width="15%" height="25"><div align="center">Research Project Officer</div></td>
+                  <td width="20%" height="25"><div align="center" class="STYLE4">Research Operations</div></td>
+                  <td width="65%" height="25" style="padding-left:10px"><div class="STYLE4">Support grant applications, project tracking, and budget execution; organise outputs and IP registration; coordinate with domestic and international partners.</div></td>
+                </tr>
+                <tr bgcolor="#ffffff">
+                  <td width="15%" height="25"><div align="center">Communications &amp; Brand Officer</div></td>
+                  <td width="20%" height="25"><div align="center" class="STYLE4">Communications &amp; Engagement</div></td>
+                  <td width="65%" height="25" style="padding-left:10px"><div class="STYLE4">Run the website, WeChat and other channels; turn research into policy briefs, popular science articles, and visualisations; support conferences and public events.</div></td>
+                </tr>
+                <tr bgcolor="#ffffff">
+                  <td width="15%" height="25"><div align="center">Finance &amp; Grants Officer</div></td>
+                  <td width="20%" height="25"><div align="center" class="STYLE4">Finance &amp; Grants</div></td>
+                  <td width="65%" height="25" style="padding-left:10px"><div class="STYLE4">Daily accounting, budgeting, and tax; manage research and donation funds; donor relations and financial reporting.</div></td>
+                </tr>
+                <tr bgcolor="#ffffff">
+                  <td width="15%" height="25"><div align="center">Admin &amp; HR Officer</div></td>
+                  <td width="20%" height="25"><div align="center" class="STYLE4">Administration &amp; Operations</div></td>
+                  <td width="65%" height="25" style="padding-left:10px"><div class="STYLE4">Administration, facilities, and assets; support recruitment, onboarding, attendance, and employee relations; internal meetings and cross-department coordination.</div></td>
+                </tr>
+              </tbody>
+            </table>
+            <p style="margin-top: 30px;"><strong>2. What we offer</strong></p>
+            <p>— Collaboration with leading universities, research institutions, and government think tanks so your research addresses real policy agendas;<br/>
+            — Competitive compensation and full social insurance;<br/>
+            — Flexible working, learning fund, annual health check, and paid leave;<br/>
+            — Open, flat team culture where every voice is respected.</p>
+            <p><strong>3. How to apply</strong></p>
+            <p>At GreyBay Institute we do not define each other as “employees”—we are research partners and co-creators. We care less about credentials than about solid skills, genuine curiosity, and the drive to turn science into action.</p>
+            <p>If you share our values and want to grow in a place where your work is seen and respected, please send your CV and portfolio (if any) to <strong>hr@greybay.org</strong>. Use the subject line “Position name + Your name”. We will respond to shortlisted applicants within ten working days.</p>
+            <p>We look forward to building healthier cities with you.</p>
+          </div>
+        </div>
+        <div class="fenx_con"><div class="cont"><div class="daying"><a href="javascript:window.close();">[Close window]</a></div></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="footer_con">
+    <div class="TBcont tbright"><span class="TBright"><img width="100%" height="auto" src="../../../ztimages/wxgzh2021.png" ></span></div>
+    <div class="text">
+      <p><span>Jointly initiated by: GreyBay Institute, Greater Bay Area Institute</span></p>
+      <p><span>Tel: +86 13538048576</span><span>Address: 8 Yuanling 5th Street, Futian District, Shenzhen, Guangdong, China</span></p>
+      <p><span><a href="../../beian.miit.gov.cn/index.html">粤ICP备2021106799号</a></span></p>
+    </div>
+  </div>
+</div>
+<div class="rightNav">
+  <ul>
+    <li><a href="javascript:void(0);"><img src="../../../ztimages/jkfz20200426_10.png" /></a><img class="ewm" src="../../../ztimages/codeVR.png" ></li>
+    <li><a href="javascript:void(0);"><img src="../../../ztimages/jkfz20200426_18.png" /></a><img class="ewm" src="../../../ztimages/wsfzjkzx20200426_55.jpg" ></li>
+    <li><a href="javascript:void(0);"><img src="../../../ztimages/jkfz20200426_22.png" /></a><img class="ewm" src="../../../ztimages/wsjkfzyjzxnfw20200522.jpg" ></li>
+    <li><a href="#"><img src="../../../ztimages/jkfz20200426_24.png" /></a></li>
+  </ul>
+</div>
+<script>function changeContent(value){ if(value.indexOf('#')>= 0){ document.getElementsByClassName("news_cont_d_wrap")[0].style.backgroundColor = value }else{ document.getElementsByClassName("news_cont_d_wrap")[0].style.fontSize = value } }</script>
+<style>.rightNav li{position: relative;} .rightNav li .ewm{display: none;position: absolute;left: -100px;top: -25px;width: 100px;} .rightNav li:hover .ewm{display:block;} .footer_con{line-height: 2.5} .footer_con .TBcont {width:20%;z-index: 9;} .tbright{right: 0px;} .footer_con .text{text-align:left;} @media (max-width: 780px){.footer_con .tbright{top: 5em;} } @media (max-width: 860px){ .rightNav{right: 0.6em;} .rightNav li { margin: 0 0 0.7em 0; width: 2em;} .footer_con .TBcont {width: 50%;position: unset;} .footer_con {width: 94%;flex-wrap: wrap;line-height: unset;} .footer_con .text {padding: 0;} .footer_con .text span{display:block;} .footer_con .text span,.footer_con .text a{line-height: 2.6rem;font-size: 1.5rem;} .footer_con .text{text-align: center;} }</style>
+</body>
+</html>

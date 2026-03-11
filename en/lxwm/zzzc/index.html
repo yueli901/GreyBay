@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+ <title>Funding &amp; support – GreyBay Institute</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="../../../ztimages/swiper.min20200426.css"/>
+<link rel="stylesheet" type="text/css" href="../../../ztimages/global20200426.css"/>
+<link rel="stylesheet" type="text/css" href="../../../ztimages/layout20200426.css"/>
+<link rel="stylesheet" href="../../../ztimages/jyzx_global_20240528.css">
+<script type="text/javascript" src="../../../js/jquery-3.4.0.min.js"></script>
+<script>
+$(function(){
+  if($(window).width()<780){
+    $(document).delegate(".Ydbtn","click",function(event){
+      if($(this).hasClass('hover')){
+        $(this).removeClass('hover').find('img').attr('src', '../../../ztimages/jkfzyd20200426_30.png');
+        $(this).siblings('.YdbtnCont,.more').hide();
+      } else {
+        $(this).addClass('hover').find('img').attr('src', '../../../ztimages/jkfzyd20200426_15.png');
+        $(this).siblings('.YdbtnCont,.more').show();
+      }
+    });
+  }
+});
+</script>
+<script>
+$(function(){
+  $(document).delegate(".left_menu h3","click",function(event){
+    if($(this).hasClass('hover')){
+      $(this).removeClass('hover').siblings('ul').hide();
+    } else {
+      $(this).addClass('hover').siblings('ul').show();
+    }
+  });
+});
+</script>
+<script>
+function nTabs(thisObj,Num){
+  if(thisObj.className == "hover")return;
+  var tabObj = thisObj.parentNode.id;
+  var tabList = document.getElementById(tabObj).getElementsByTagName("li");
+  for(var i=0; i<6; i++){
+    if (i == Num){
+      thisObj.className = "hover";
+      document.getElementById(tabObj+"_Content"+i).style.display = "block";
+    } else {
+      tabList[i].className = "";
+      document.getElementById(tabObj+"_Content"+i).style.display = "none";
+    }
+  }
+}
+</script>
+<script>
+    $(function() {
+    $(".YDmenu").on('click', function() { $("#menu").show(); $(".YDmenuCont_box").show(); });
+    $(".closeBtn").on('click', function() { $("#menu").hide(); $(".YDmenuCont_box").hide(); });
+    $('.tabs li').hover(
+        function () { $(this).children('.first').addClass('hover'); $(this).children('div').addClass('active'); },
+        function () { $(this).children('.first').removeClass('hover'); $(this).children('div').removeClass('active'); }
+    );
+    $('.tabs li div a').hover(
+        function () { $(this).addClass('hover'); },
+        function () { $(this).removeClass('hover'); }
+    );
+    });
+</script>
+<style>.mainList .right_cont .more a.current{ display: none; }</style>
+<style>.Listcont table {border-spacing: 1px;border-collapse: separate;} .Listcont table td div {text-align: center;padding: 10px 0;} .Listcont table td a {color:#0b5fb5;} .mainList .fenx_left{float: none; margin: 0 auto;}</style>
+</head>
+<body class="jyzx ny">
+<style>form{display: flex;align-items: center;} form .wza{margin-right: 1rem;font-size: 1.13rem;white-space: nowrap;} @media (max-width:860px){ form .wza{margin-top:3%;} }</style>
+<div class="jyzx_top">
+  <div class="jyzx_header">
+      <a href="../../index.html" class="logo"><img src="../../../ztimages/jyzx_logo_20240528.png" alt="GreyBay Institute logo"></a>
+      <div class="YDmenu ALLYdCont">Menu</div>
+      <div class="YDmenuCont_box"></div>
+      <form action="https://search.gd.gov.cn/search/local_msg/755025" method="get" target="_blank">
+          <a class="wza" href="javascript:;" onclick="aria && aria.start && aria.start()" title="Accessible browsing">Accessible</a>
+          <div class="search">
+              <input type="text" name="keywords" placeholder="Search this site">
+              <input class="btn" type="submit" value="">
+          </div>
+      </form>
+  </div>
+</div>
+<div class="jyzx_mune" id="menu">
+  <div class="top_btn ALLYdCont"><div class="closeBtn">✖</div></div>
+  <ul class="tabs">
+      <li><a class="first" href="../../index.html">Home</a></li>
+      <li>
+        <a class="first" href="../../gywm/index.html">About</a>
+        <div>
+            <a href="../../gywm/zxjj/index.html">Overview</a>
+            <a href="../../gywm/tdjs/index.html">Leadership</a>
+            <a href="../../gywm/nsbm/index.html">Departments</a>
+        </div>
+      </li>
+      <li>
+        <a class="first" href="../../yjxm/index.html">Research</a>
+        <div>
+            <a href="../../yjxm/lwcc/index.html">Publications</a>
+            <a href="../../yjxm/yjbg/index.html">Research reports</a>
+            <a href="../../yjxm/zykt/index.html">Ongoing projects</a>
+        </div>
+      </li>
+      <li>
+        <a class="first" href="../../lxwm/index.html">Contact</a>
+        <div>
+            <a href="../../lxwm/zzzc/index.html">Funding &amp; support</a>
+            <a href="../../lxwm/zlhz/index.html">Strategic partnerships</a>
+            <a href="../../lxwm/jrwm/index.html">Join us</a>
+            <a href="../../lxwm/cgzh/index.html">Knowledge transfer</a>
+        </div>
+      </li>
+  </ul>
+</div>
+<div class="jyzx_banner ALLPcCont"><img src="../../../ztimages/jyzx_banner_20240528.png" alt=""></div>
+<div class="jyzx_banner ALLYdCont"><img src="../../../ztimages/jyzx_yd_banner_20240528.png" alt=""></div>
+
+<div class="mainList">
+  <div class="nei_tit"><a href="../../index.html">GreyBay Institute</a>&nbsp;&gt;&nbsp;<a href="../../lxwm/index.html">Contact</a>&nbsp;&gt;&nbsp;<a href="../../lxwm/zzzc/">Funding &amp; support</a></div>
+  <div class="left_menu AllLeftCon">
+    <h3 class="AllYdCon">Contact</h3>
+    <ul class="AllPcCon">
+      <li class="hover"><a href="index.html" title="Funding &amp; support">Funding &amp; support</a></li>
+      <li><a href="../zlhz/index.html" title="Strategic partnerships">Strategic partnerships</a></li>
+      <li><a href="../jrwm/index.html" title="Join us">Join us</a></li>
+      <li><a href="../cgzh/index.html" title="Knowledge transfer">Knowledge transfer</a></li>
+    </ul>
+  </div>
+  <div class="right_cont AllLeftCon">
+    <div class="listtit AllFont2"><span>Funding &amp; support</span></div>
+    <div class="Listcont">
+      <div class="mainList">
+        <div class="xx_con">
+          <div class="toutit">
+            <h1>Funding and resource support</h1>
+            <h6>
+              <div>
+                <span>Date: 2022-09-04 08:57:03</span><span>Source: GreyBay Institute</span>
+                <span class="font">[Font: <a onclick="changeContent('18px')" href="javascript:void(0);" class="zt0">Large</a><a onclick="changeContent('16px')" href="javascript:void(0);" class="zt1">Medium</a><a onclick="changeContent('12px')" href="javascript:void(0);" class="zt2">Small</a>]</span>
+                <em class="color">Background: <a onclick="changeContent('#cefeff')" href="javascript:void(0);" class="bg"></a><a onclick="changeContent('#f8f8c3')" href="javascript:void(0);" class="bg2"></a><a onclick="changeContent('#ffc7ff')" href="javascript:void(0);" class="bg3"></a><a onclick="changeContent('#9bccfa')" href="javascript:void(0);" class="bg4"></a></em>
+              </div>
+              <div class="fenx_left"></div>
+            </h6>
+          </div>
+          <div class="news_cont_d_wrap">
+            <p>GreyBay Institute is an independent, non-profit public-interest research organisation. We remain academically neutral and are committed to turning rigorous scientific evidence into actionable policy advice and public goods. Our work depends on the generous support of government, foundations, businesses, and the wider community. We welcome support in any form; every contribution is strictly used for public-interest research and is subject to transparent, accountable oversight.</p>
+            <p><strong>1. Financial donations</strong></p>
+            <p>Financial donations are the most direct and flexible form of support. Whether one-off or multi-year; whether for general operations or for a specific research area or project, we welcome your contribution. Donations are used strictly in line with donors’ wishes, and we provide regular project updates and financial summaries. We are qualified to issue tax-deductible charitable donation receipts for donors in mainland China.</p>
+            <p><strong>2. In-kind donations</strong></p>
+            <p>We welcome in-kind donations relevant to our research and operations, including but not limited to: high-performance computing servers, data storage, environmental sensors, wearable health-monitoring devices, licensed software (GIS, statistics, data visualisation, etc.), and access to academic books and journal databases.</p>
+            <p><strong>3. Unrestricted institutional funding</strong></p>
+            <p>We welcome unrestricted funding from companies and foundations to support our brand-building and public outreach. Funds may be used for: annual flagship conferences, young scholar awards, student internship stipends, policy briefs and popular science publications, and the development and maintenance of public-interest tools and open-source platforms. Funders may receive branding and co-promotion benefits.</p>
+            <p><strong>4. Naming and endowed support</strong></p>
+            <p>For donors with long-term commitment and support at a certain scale, we offer naming opportunities, including endowed chairs, research funds, labs, conference rooms, and annual reports. Terms and presentation can be agreed by mutual discussion.</p>
+            <p><strong>5. Legacy and charitable trusts</strong></p>
+            <p>We respect and value donors who include the Institute in their will, estate plan, or charitable trust. Such support provides lasting foundations for our work; we are happy to work closely with donors and their legal advisers to ensure their intentions are fulfilled.</p>
+            <p><strong>6. Resource exchange</strong></p>
+            <p>We welcome resource-exchange arrangements: cloud providers offering compute resources in return for demonstration of our models; data holders providing de-identified datasets in return for analytical insights and joint research. Specific arrangements can be discussed case by case.</p>
+            <p>……</p>
+            <p>Science needs time to mature, and support makes that possible. Every contribution, whatever its size or form, is a vote of trust for healthier cities and a fairer future. We value that trust and promise to use the highest standards of academic rigour, financial transparency, and public-interest responsibility to turn your support into research and public goods that truly benefit population health.</p>
+            <p>If you are interested in supporting us or would like to explore collaboration, please get in touch.</p>
+            <p>Funding and partnership enquiries: <strong>finance@greybay.org</strong></p>
+          </div>
+        </div>
+        <div class="fenx_con"><div class="cont"><div class="daying"><a href="javascript:window.close();">[Close window]</a></div></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="footer_con">
+    <div class="TBcont tbright"><span class="TBright"><img width="100%" height="auto" src="../../../ztimages/wxgzh2021.png" ></span></div>
+    <div class="text">
+      <p><span>Jointly initiated by: GreyBay Institute, Greater Bay Area Institute</span></p>
+      <p><span>Tel: +86 13538048576</span><span>Address: 8 Yuanling 5th Street, Futian District, Shenzhen, Guangdong, China</span></p>
+      <p><span><a href="../../beian.miit.gov.cn/index.html">粤ICP备2021106799号</a></span></p>
+    </div>
+  </div>
+</div>
+<div class="rightNav">
+  <ul>
+    <li><a href="javascript:void(0);"><img src="../../../ztimages/jkfz20200426_10.png" /></a><img class="ewm" src="../../../ztimages/codeVR.png" ></li>
+    <li><a href="javascript:void(0);"><img src="../../../ztimages/jkfz20200426_18.png" /></a><img class="ewm" src="../../../ztimages/wsfzjkzx20200426_55.jpg" ></li>
+    <li><a href="javascript:void(0);"><img src="../../../ztimages/jkfz20200426_22.png" /></a><img class="ewm" src="../../../ztimages/wsjkfzyjzxnfw20200522.jpg" ></li>
+    <li><a href="#"><img src="../../../ztimages/jkfz20200426_24.png" /></a></li>
+  </ul>
+</div>
+<script>function changeContent(value){ if(value.indexOf('#')>= 0){ document.getElementsByClassName("news_cont_d_wrap")[0].style.backgroundColor = value }else{ document.getElementsByClassName("news_cont_d_wrap")[0].style.fontSize = value } }</script>
+<style>.rightNav li{position: relative;} .rightNav li .ewm{display: none;position: absolute;left: -100px;top: -25px;width: 100px;} .rightNav li:hover .ewm{display:block;} .footer_con{line-height: 2.5} .footer_con .TBcont {width:20%;z-index: 9;} .tbright{right: 0px;} .footer_con .text{text-align:left;} @media (max-width: 780px){.footer_con .tbright{top: 5em;} } @media (max-width: 860px){ .rightNav{right: 0.6em;} .rightNav li { margin: 0 0 0.7em 0; width: 2em;} .footer_con .TBcont {width: 50%;position: unset;} .footer_con {width: 94%;flex-wrap: wrap;line-height: unset;} .footer_con .text {padding: 0;} .footer_con .text span{display:block;} .footer_con .text span,.footer_con .text a{line-height: 2.6rem;font-size: 1.5rem;} .footer_con .text{text-align: center;} }</style>
+</body>
+</html>
